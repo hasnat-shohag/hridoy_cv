@@ -1,0 +1,82 @@
+.body,html{
+    font-family: inherit;
+}
+.container{
+    width: 595px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+header{}
+header .content{}
+header .content .top_content{
+    padding: 20px 0px;
+    display: flex;
+    height: 100px;
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: space-between;
+}
+header .content .top_content .left{}
+header .content .top_content .left h1{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+header .content .top_content .left span{
+    color: #616161;
+    font-size: 15px;
+}
+
+header .content .top_content .right{
+    font-size: 15px;
+}
+header .content .top_content .right ul{
+    list-style-type: none;
+    margin: 0;
+}
+header .content .top_content .right li{
+    line-height: 1.5;
+}
+header .content .top_content .right li i{
+    margin-right: 5px;
+}
+header .content .top_content .right li a{}
+
+
+main{}
+main .content{
+
+}
+main .content .main_content{
+    display: flex;
+    justify-content: space-between;
+}
+main .content .main_content .left{
+    /* flex: 1; */
+}
+main .content .main_content .right{}
+
+.common{}
+.common h3{
+    font-size: 20px;
+    /* color: rgb(117, 183, 84); */
+}
+.common h2{
+    font-size: 18px;
+}
+.common a{
+    font-weight: bold;
+    color: #0c137c;
+}
+.common span{}
+.common ul{
+    padding: 0;
+}
+.common ul li{
+    list-style: none;
+    font-size: 14px;
+    color: #636363;
+    padding: 0;
+}
